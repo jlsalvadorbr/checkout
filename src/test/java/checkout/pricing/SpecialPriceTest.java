@@ -21,7 +21,7 @@ public class SpecialPriceTest {
 	}
 
 	@Test
-	public void shouldNotBeEqualIfSpecialPrieceFieldsAreNotEqual() throws Exception {
+	public void shouldNotBeEqualIfSpecialPriceFieldsAreNotEqual() throws Exception {
 		//then
 		assertFalse(price1.equals(price3));
 		assertFalse(price1.equals(price4));
