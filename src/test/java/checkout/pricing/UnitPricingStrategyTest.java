@@ -10,7 +10,7 @@ import checkout.pricing.UnitPricingStrategy;
 public class UnitPricingStrategyTest {
 
 	@Test
-	public void test() {
+	public void shouldPriceAnItemWithUnitPrice() {
 		//given
 		UnitPricingStrategy unitPricingStrategy = new UnitPricingStrategy(new Price(50));
 		//then

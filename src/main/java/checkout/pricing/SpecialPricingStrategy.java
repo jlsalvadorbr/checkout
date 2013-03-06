@@ -3,11 +3,11 @@ package checkout.pricing;
 public class SpecialPricingStrategy implements PricingStrategy {
 	
 	private SpecialPrice specialPrice;
-	private int numberOfPrevivousOccurrences;
+	private int numberOfPreviousOccurrences;
 	
 	public SpecialPricingStrategy(SpecialPrice specialPrice, int numberOfPreviousOccurrences) {
 		this.specialPrice = specialPrice;
-		this.numberOfPrevivousOccurrences = numberOfPreviousOccurrences;
+		this.numberOfPreviousOccurrences = numberOfPreviousOccurrences;
 	}
 	
 	private int getSpecialPrice(SpecialPrice specialPrice, int numberOfPreviousOccurrences) {
@@ -19,7 +19,7 @@ public class SpecialPricingStrategy implements PricingStrategy {
 	}
 	
 	public int getPrice() {
-		return getSpecialPrice(specialPrice, numberOfPrevivousOccurrences);
+		return getSpecialPrice(specialPrice, numberOfPreviousOccurrences);
 	}
 
 }

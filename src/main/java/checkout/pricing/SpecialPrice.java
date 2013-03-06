@@ -5,9 +5,9 @@ public class SpecialPrice extends Price {
 	private int numberOfItemsForSpecialPrice;
 	private int specialPrice;
 	
-	public SpecialPrice(int unitPrice, int numberOfItemsForSpeecialPrice, int specialPrice) {
+	public SpecialPrice(int unitPrice, int numberOfItemsForSpecialPrice, int specialPrice) {
 		super(unitPrice);
-		this.numberOfItemsForSpecialPrice = numberOfItemsForSpeecialPrice;
+		this.numberOfItemsForSpecialPrice = numberOfItemsForSpecialPrice;
 		this.specialPrice = specialPrice;
 		this.multipriced = true;
 	}

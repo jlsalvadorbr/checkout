@@ -61,6 +61,7 @@ public class CheckoutTest {
 		//when
 		checkout1.scan('C');
 		checkout1.scan('D');
+        //scan same Items in different order
 		checkout2.scan('D');
 		checkout2.scan('C');
 		//then
